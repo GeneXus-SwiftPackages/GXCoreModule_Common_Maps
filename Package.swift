@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Maps",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Maps-1.0.0-beta+20230515020747.xcframework.zip",
-			checksum: "033c7317f1d3eaaf9a9b3825c6b3d2e0b3091c987aa4c9702b0eb8574df87bb9"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Maps-1.0.0-beta+20230515023341.xcframework.zip",
+			checksum: "ba5a38ead7dc12f7eed62fb4145b7cf528bbabea67b9540b7457e4658f944993"
 		)
 	]
 )
