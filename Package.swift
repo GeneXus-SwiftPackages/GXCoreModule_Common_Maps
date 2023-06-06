@@ -18,15 +18,15 @@ let package = Package(
 		.target(name: "GXCoreModule_Common_MapsWrapper",
 				dependencies: [
 					"GXCoreModule_Common_Maps",
-					.product(name: "GXCoreModule_Common_GeoLocation", package: "GXCoreModule_Common_GeoLocation", condition: .when(platforms: [.tvOS, .iOS, .watchOS])),
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS, .watchOS])),
-					.product(name: "GXObjectsModel", package: "GXObjectsModel", condition: .when(platforms: [.tvOS, .iOS, .watchOS]))
+					.product(name: "GXCoreModule_Common_GeoLocation", package: "GXCoreModule_Common_GeoLocation", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
+					.product(name: "GXObjectsModel", package: "GXObjectsModel", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Maps",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Maps-1.0.0-beta+20230605162159.xcframework.zip",
-			checksum: "b336850b985394352d784716fab28b5aee8cb84fe23b0c5c8ca1bbd5342f2e07"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Maps-1.0.0-beta+20230606141441.xcframework.zip",
+			checksum: "380c124473f434bba31e1ffa0da48dd8150e628171f372bb1fa687f4314d5197"
 		)
 	]
 )
